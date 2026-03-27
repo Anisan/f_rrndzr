@@ -1,0 +1,4 @@
+.git
+*.md
+*.toml
+!config.toml
