@@ -1,5 +1,6 @@
 FROM nineseconds/mtg:2
 
-COPY config.toml /config.toml
+COPY config.toml /config/config.toml
 
-CMD ["run", "/config.toml"]
+ENTRYPOINT ["/mtg"]
+CMD ["run", "/config/config.toml"]
