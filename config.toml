@@ -1,5 +1,5 @@
 # Обязательные поля
-secret = "ee473ce5d4958eb5f968c87680a23854a0676f6f676c652e636f6d"
+secret = "eea1b2c3d4e5f6a7b8c9d0e1f2a3b4c5"
 bind-to = "0.0.0.0:3128"
 
 # Опционально: настройки для Railway
