@@ -5,7 +5,7 @@ FROM nineseconds/mtg:2
 EXPOSE 3128
 
 # Volume для конфига (опционально, если монтируете снаружи)
-VOLUME ["/config"]
+#VOLUME ["/config"]
 
 # Команда запуска (образ уже имеет ENTRYPOINT)
 # CMD переопределять не нужно — по умолчанию: ["run", "/config/config.toml"]
